@@ -1,0 +1,8 @@
+At the top of the document:
+
+    <?php ?>
+
+
+Before the </head> tag:
+
+    <?php wp_head();?>
