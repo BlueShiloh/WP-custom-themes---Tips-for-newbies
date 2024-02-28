@@ -1,0 +1,15 @@
+At the top of the document:
+
+      <?php get_header()
+          /* Template Name: Home */
+      ;?>
+
+
+
+***** Page content here *****
+
+
+
+At the bottom of the document:
+
+      <?php get_footer();?>
