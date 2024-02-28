@@ -1,0 +1,30 @@
+ACF by Jeff Starr
+
+Getting the page title:
+**INBETWEEN <h> TAGS REPLACING THE TITLE AND PUTTING TITLE IN CLIENT’S DASHBOARD > PAGES > PAGE TITLE**
+      
+      <?php the_title(); ?>
+
+
+Getting a custom field:
+
+      <?php the_field('page_title'); ?>
+
+
+
+
+Getting an image for a custom field:
+
+      <?php if( get_field('image_name') ): ?>    
+          <img src="<?php the_field('image_name'); ?>" />
+      <?php endif; ?>
+
+
+Getting the page content:
+** REPLACING <p> TAGS AND CONTENT TEXT AND PUTTING SAID CONTENT IN CLIENTS DASHBOARD > PAGES > PAGE PARAGRAPH**
+
+      <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?> 
+      
+      <?php the_content(); ?>
+      
+      <?php endwhile; ?>
