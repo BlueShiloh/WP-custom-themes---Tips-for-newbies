@@ -1,0 +1,13 @@
+Place the following at the top of your style.css document:
+
+
+/*
+Theme Name: My funky page
+Theme URI: www.newwebsite.com
+Author: Jane Doe
+Author URI: www.janedoedesign.com
+Description: A simple, minimal theme ideal personal blogging or portfolio
+Version: 1.0
+Tags: single full-width column, minimal, simple, modern, colourful, side-bar, custom 	(etc etc. full list of available tags at following link:  https://developer.wordpress.org/themes/references/list-of-template-tags/)
+
+*/
