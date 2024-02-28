@@ -1,0 +1,4 @@
+At the top of the document:
+
+    <?php wp_footer();?>
+
