@@ -1,0 +1,9 @@
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/style.css"/>
+
+
+
+OR...
+
+
+
+<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/style.css' ?>">
