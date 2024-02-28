@@ -1,0 +1,13 @@
+Step One: Duplicate your header.php file and name it header-new.php. You can replace the word ‘new’ with something that makes sense for your website.
+
+Step Two: Open up the page.php file associated with the template that you want to use. Then replace the normal header code with the code below. Update the page id number with the correct page number on your site. Change the get_header(‘new’) to match the alias used in step one.
+
+Example:
+
+    header-new.php
+    
+    <?php get_header(‘new’); ?>
+
+
+Step Three: Make your changes within the header-new.php file, and voila! You have successfully created a second header!
+If you’re looking to create a second footer, simply follow the steps above but make your changes to the footer-new.php file instead.
